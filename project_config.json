@@ -1,0 +1,17 @@
+{
+	"singularity_path" : "/projects/your-project-name/singularity/your-singularity-image.simg",
+	"resources_path" : "/projects/your-project-name/resources",
+	"base_path_data" : "/projects/your-project-name/data",
+	"base_path_exp" : "/projects/your-project-name/experiments",
+	"project_name" : "your-project-name",
+	"slurm_logs" : "/projects/your-project-name/slurm_logs",
+	"time": "12:00:00",
+	"number_tasks": "1",
+	"number_nodes": "1",
+	"number_cpus": "1",
+	"partition": "gpu",
+	"gres": "gpu:1",
+	"exclude": "r02n01,r01n01,r01n02,r01n03,r01n04,r02n22",
+	"mem": "32000",
+	"export": "ALL"
+}
